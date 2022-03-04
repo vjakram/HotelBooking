@@ -1,0 +1,95 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2223663500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Successful hotel booking with all valid data",
+        "description": "",
+        "id": "hotelbooking;successful-hotel-booking-with-all-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 151636000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12187641200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enters all valid data",
+            "match": {
+              "location": "StepDefHotelBooking.user_enters_all_valid_data()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130068500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "navigate to welcome page",
+            "match": {
+              "location": "StepDefHotelBooking.navigate_to_welcome_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          },
+          {
+            "name": "@succesful_login"
+          }
+        ]
+      }
+    ],
+    "name": "HotelBooking",
+    "description": "",
+    "id": "hotelbooking",
+    "keyword": "Feature",
+    "uri": "Feature/Hotel_booking.feature",
+    "tags": [
+      {
+        "name": "@HotelBooking",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
