@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 		plugin = {"json:target/cucumber.json"},
 		features = "Feature"
 		,glue={"step_definition"}
-		,tags={"@succesful_login"}
+		,tags={"@HotelBooking"}
 		)
 public class TestRunner {
 
