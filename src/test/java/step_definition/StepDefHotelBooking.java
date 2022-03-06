@@ -33,7 +33,7 @@ public class StepDefHotelBooking {
 	objhbpg = new HotelBookingPageFactory(driver);
 	objhbpg = PageFactory.initElements(driver,HotelBookingPageFactory.class );
 
-	//driver.get("file:///C:/Users/rutkulka/Documents/BDD/hotelBooking/hotelbooking.html");
+	//driver.get("file:///C:/Users/vjakram/Documents/HotelBooking.html");
 	}
 
 
@@ -42,7 +42,7 @@ public void user_is_on_hotel_booking_page() throws Throwable {
 	//driver = new FirefoxDriver();
 	//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	//objhbpg = new HotelBookingPageFactory(driver);
-	driver.get("C:\\Users\\adeedv\\Desktop\\Files\\capgemini study materail\\pravin sir notes\\hotel booking.html");
+	driver.get("file:///C:/Users/vjakram/Documents/HotelBooking.html");
 }
 
 @Then("^check the title of the page$")
